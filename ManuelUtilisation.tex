@@ -90,7 +90,7 @@ pourrait avoir le client.
 
 		\subsection{Lancement de l'application}
 			commande pour lancer appli: make run \\
-			commande pour lancer tests:\\
+			commande pour lancer tests:make test\\
 
 
 	\section{Guide d'utilisation}
@@ -104,43 +104,88 @@ cours de son usage.
 
 	\section{Menu/Acceuil}
 			Ici, vous vous trouvez sur le menu ou page d'acceuil de l'application. \\
-			Vous pouvez..etc \\
+			Vous pouvez a l'aide de nos 3 boutons Crypter Decrypter ou faire une analyse sur un texte  \\
 			\begin{center}\includegraphics[scale=0.4]{1.png}\end{center}
 			
 			
 			
 	\section{Menu Cryptage}
+		dans le menu cryptage vous pouvez soit choisir le type de cryptage (methode) ou 
+		sinon vous avez le bouton R qui permet de revenir au menu precedent
 		\begin{center}\includegraphics[scale=0.4]{2.png}\end{center}
 		\subsection{Cryptage Substitution}
+			la vous pouvez soit rentrer votre texte a l'aide de la zone d'entrée(8)
+			soit le charger a l'aide de la fenetre de chargement (9)
 			\begin{center}\includegraphics[scale=0.4]{3.png}\end{center}
-			resultat\\
+			le resultat sera affiché \\
+			vous pouvez maintenant enregistrer la clée et le texte chiffré a laide 
+			de la fenetre d'enregistrement(9)
 			\begin{center}\includegraphics[scale=0.4]{5.png}\end{center}
 		\subsection{Cryptage Vigenere}
+		dans ce menu on vous demande tout dabord d'entrer la clé de cryptage (elle 
+		doit contenir que des lettres)
+			\begin{center}\includegraphics[scale=0.4]{22.png}\end{center}
+			la vous pouvez soit rentrer votre texte a l'aide de la zone d'entrée(8)
+			soit le charger a l'aide de la fenetre de chargement (9)
 			\begin{center}\includegraphics[scale=0.4]{6.png}\end{center}
+			le resultat sera affiché \\
+			vous pouvez maintenant enregistrer la clée et le texte chiffré a laide 
+			de la fenetre d'enregistrement(9)
 			\begin{center}\includegraphics[scale=0.4]{7.png}\end{center}
 		
 		
 	\section{Menu Decryptage}
+		avant de commencer le decryptage vous devez donner la langue du text que vous voulez decrypter car 
+		les resources en francais et en anglais ne sont pas les memes
 		\begin{center}\includegraphics[scale=0.4]{8.png}\end{center}
+		dans le menu decryptage vous pouvez soit choisir le type de decryptage (methode) ou 
+		sinon vous avez le bouton R qui permet de revenir au menu principal
 		\begin{center}\includegraphics[scale=0.4]{9.png}\end{center}
-		\subsection{Deryptage Substitution}
+		\subsection{Decryptage Substitution}
+			la vous pouvez soit rentrer votre texte a l'aide de la zone d'entrée(8)
+			soit le charger a l'aide de la fenetre de chargement (9)
 			\begin{center}\includegraphics[scale=0.4]{10.png}\end{center}
+			maintenant vous avez une partie de la clée qui est decrypter et vous allez 
+			essayer de trouver quelques autres caracteres ,exemple si le resultat est :
+			kONvOUR... vous pouvez etre sur que k correspond a B et v a J 
 			\begin{center}\includegraphics[scale=0.4]{13.png}\end{center}
+			vou pouvez faire les modifications avec le menu changer clée 
+			il manque un screen ICI
+			au bout de 4 ou 5 caractéres retrouvés le texte sera decryptée (car plus de la moitier 
+			des caracteres est decryptée par l'application) et vous aurez:
 			\begin{center}\includegraphics[scale=0.4]{11.png}\end{center}
+			vous pouvez cliquer sur terminer qui vous emmenera sur ce menu qui vous permet comme pour 
+			les cryptages d'enregistrer le resultat et la clée
 			\begin{center}\includegraphics[scale=0.4]{12.png}\end{center}
 		\subsection{Decryptage Vigenere}
-			\begin{center}\includegraphics[scale=0.4]{22.png}\end{center}
+			la vous pouvez soit rentrer votre texte a l'aide de la zone d'entrée(8)
+			soit le charger a l'aide de la fenetre de chargement (9)
 			\begin{center}\includegraphics[scale=0.4]{14.png}\end{center}
+			la vous avez une cle et un texte decrypté normalement la clé obtenu est la bonne
+			si le texte et assez long si le texte est illisible alors la clé est incorrecte et
+			 dans ce cas il suffit de choisir le bouton redechiffrer qui va ressayer avec une 
+			 autre taille de clé . une fois le resultat trouvé vous pouvez a l'aide du bouton 
+			 terminer aller au menu de resultat final.  
 			\begin{center}\includegraphics[scale=0.4]{15.png}\end{center}
+			ce menu vous permet comme pour 
+			les cryptages d'enregistrer le resultat et la clée
 			\begin{center}\includegraphics[scale=0.4]{16.png}\end{center}
 		
 		
 	\section{Menu Analyse Frequentielle}
+			la vous pouvez soit rentrer votre texte a l'aide de la zone d'entrée(8)
+			soit le charger a l'aide de la fenetre de chargement (9)
 		\begin{center}\includegraphics[scale=0.4]{17.png}\end{center}
+			ensuite vous aurez les frequences de chaque lettre de l'alphabet ainsi que
+			celle de chaque digramme et trigramme de lettres dans votre texte
+			(si le texte est tres long elle n'affichera que ceux qui se repettent le plus)
 		\begin{center}\includegraphics[scale=0.4]{18.png}\end{center}
-	\section{entrer un texte}
+	\section{Entrer un texte}
+		a chaque fois que vous allez essayer de rentrer un texte cette fenetre va s'afficher devant vous
 		\begin{center}\includegraphics[scale=0.4]{21.png}\end{center}
-	\section{les chargements/enregistrement de fichiers}
+	\section{les Chargements/Enregistrement de fichiers}
+		a chaque fois que vous allez essayer de charger un texte cette fenetre aparaitre.
 		\begin{center}\includegraphics[scale=0.4]{19.png}\end{center}
+		a chaque fois que vous allez essayer d'enregistrer un texte cette fenetre va s'afficher devant vous.
 		\begin{center}\includegraphics[scale=0.4]{20.png}\end{center}
 \end{document}
